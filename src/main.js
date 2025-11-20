@@ -1,16 +1,14 @@
 import './style.css'
-import javascriptLogo from './javascript.svg'
-import viteLogo from '/vite.svg'
 import { setupCounter } from './counter.js'
+import img1 from "./icon/img1.png"
+import img2 from "./icon/img2.jpg"
 
 document.querySelector('#app').innerHTML = `
   <div>
-    <a href="https://vite.dev" target="_blank">
-      <img src="${viteLogo}" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-      <img src="${javascriptLogo}" class="logo vanilla" alt="JavaScript logo" />
-    </a>
+    
+      <img src="${img1}"  alt="img 1" />
+      <img src="${img2}"  alt="img 2" style ="height:450px" />
+    
     <h1>Hello Vite!</h1>
     <div class="card">
       <button id="counter" type="button"></button>
